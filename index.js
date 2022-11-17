@@ -43,7 +43,7 @@ const upload = multer({storage});
 /* Mongoose setup */
 
 const PORT = process.env.PORT || 7000;
-const DB = process.env.DB || "localhost:27167/mongodb/";
+const DB = "mongodb://localhost:27167/mongodb/";
 
 mongoose.connect(DB, {
     useNewUrlParser: true, useUnifiedTopology: true
