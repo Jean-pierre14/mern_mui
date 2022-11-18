@@ -9,6 +9,7 @@
     "gridfs-stream": "^1.1.1",
     "helmet": "^6.0.0",
     "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.12.0",
     "mongoose": "^6.7.2",
     "morgan": "^1.10.0",
     "multer": "^1.3.0",
